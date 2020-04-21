@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+	<title>Rohit Jain</title>
+	
+	    <meta charset="utf-8" />
+	    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+
+.topbar {
+  position: fixed;
+  width: 100%;
+  background-color: #262626;
+  overflow: auto;
+  z-index:2;
+}
+
+.topbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 30%; 
+  text-align: center;
+}
+
+.topbar a:hover {
+  background-color: #000;
+}
+
+body{
+background:#fff;
+}
+
+
+
+
+.box{
+	position:absolute;
+	top:50%;
+ 	left:50%;
+	padding:20px;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;	
+	background-color: #D3D3D3;
+	border-radius: 15px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+	display: flex;
+	transition:0.5s;
+	}
+.box:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+.box .photo{
+	width: 40%;
+	height:80%;
+	flex: 0 0 150px;
+
+}
+
+.box .photo img{
+
+	max-width:80%;
+}
+.box .photo img:hover{
+  opacity: 0.3;
+
+}
+.box .photo .middler:hover {
+  opacity: 1;
+  z-index:2;
+  background-color: #fff;
+  color: white;
+  font-size: 16px;
+
+
+}
+
+
+.box .texted{
+	padding left:20px;
+}
+
+.box .texted h1{
+	margin:0;
+	padding-left: 0;
+	color: #fff;
+}
+
+.box .content p
+{
+	margin:0;
+	padding: 10px 0 0;
+	text-align: justify;
+	}
+
+
+</style>
+<body>
+
+<div class="topbar">
+
+  <a class="active" href="#"_blank">ACADEMICS</a>
+  <a class="active" href="#"_blank">INTERESTS</a>
+  <a class="active" href="#"_blank">CONTACT-ME</a>
+
+</div>
+
+
+	<div class="box">
+	<div class="photo">
+	<img src="data:image/jpeg;base64,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">
+	
+</div>
+	<div class="texted">
+	
+	<h1>Rohit Jain</h1>
+	<p>I am a first year student of the Department of Architecture and Regional Planning. I am from Patel Hall of Residence. I am from Navi Mumbai.</p> </div>
+
+</div>
+
+
+</body>
+</html> 
